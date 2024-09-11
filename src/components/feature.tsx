@@ -32,7 +32,7 @@ const AdditionalFeaturesSection = () => {
     );
 };
 
-const FeatureCard = ({ icon, title, description }: { icon: any, title: any, description: any }) => {
+const FeatureCard = ({ icon, title, description }: { icon: React.ReactNode , title: string, description: string }) => {
     return (
         <div className="p-6 rounded-lg shadow-md transition-all duration-300 
                         border-l-4 border-indigo-600
