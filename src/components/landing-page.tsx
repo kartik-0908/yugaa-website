@@ -1,11 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { CheckCircle, MessageCircle, Zap } from "lucide-react"
-import Link from "next/link"
 import { useEffect, useState } from "react"
-import { Montserrat_Alternates } from 'next/font/google'
 import AnimatedGridBackground from "./grid"
 import Navigation from "./nav"
 import AdditionalFeaturesSection from "./feature"

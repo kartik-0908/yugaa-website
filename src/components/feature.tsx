@@ -1,4 +1,4 @@
-import { ArrowUpRight, Brain, Clock, Database, Users } from 'lucide-react';
+import { ArrowUpRight, Brain, Clock, Database } from 'lucide-react';
 
 const AdditionalFeaturesSection = () => {
     return (
