@@ -4,21 +4,21 @@ import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 
-type ReplyOption = '800' | '2000' | '5000' | '15000';
+type ReplyOption = '900' | '2500' | '8000' | '20000';
 
 interface PriceMap {
   [key: string]: number;
 }
 
 const PricingSection: React.FC = () => {
-  const [selectedReplies, setSelectedReplies] = useState<ReplyOption>('800');
+  const [selectedReplies, setSelectedReplies] = useState<ReplyOption>('2500');
 
   const getPriceForReplies = (replies: ReplyOption): number => {
     const priceMap: PriceMap = {
-      '800': 8,
-      '2000': 19,
-      '5000': 49,
-      '15000': 99,
+      '900': 8,
+      '2500': 19,
+      '8000': 49,
+      '20000': 99,
     };
     return priceMap[replies] || 0;
   };
@@ -52,10 +52,10 @@ const PricingSection: React.FC = () => {
                     <SelectValue placeholder="Select replies" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="800">800 replies</SelectItem>
-                    <SelectItem value="2000">2,000 replies</SelectItem>
-                    <SelectItem value="5000">5,000 replies</SelectItem>
-                    <SelectItem value="15000">15,000 replies</SelectItem>
+                    <SelectItem value="900">900 replies</SelectItem>
+                    <SelectItem value="2500">2,500 replies</SelectItem>
+                    <SelectItem value="8000">8,000 replies</SelectItem>
+                    <SelectItem value="20000">20,000 replies</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
