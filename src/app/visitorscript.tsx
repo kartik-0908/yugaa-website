@@ -19,7 +19,7 @@ const VisitorQueueScript: React.FC = () => {
       script.setAttribute('data-id', window.vqTrackId());
       document.head.appendChild(script);
     };
-    //@ts-ignore
+    //@ts-expect-error
     if (window.vqTrackId) {
       loadPersonalisationScript();
     } else {
