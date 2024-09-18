@@ -1,38 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Check } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 
-type ReplyOption = '900' | '2500' | '8000' | '20000';
-
-interface PriceMap {
-  [key: string]: number;
-}
-
 const PricingSection: React.FC = () => {
-  const [selectedReplies, setSelectedReplies] = useState<ReplyOption>('2500');
-
-  const getPriceForReplies = (replies: ReplyOption): number => {
-    const priceMap: PriceMap = {
-      '900': 8,
-      '2500': 19,
-      '8000': 49,
-      '20000': 99,
-    };
-    return priceMap[replies] || 0;
-  };
 
   const handleBookMeeting = () => {
     // Replace this URL with your actual Google Calendar booking link
     window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
   };
-
-  const handleSignUp = () => {
-    // Replace this URL with your actual sign-up link
-    window.open('https://app.yugaa.tech/sign-up', '_blank');
-  };
-
 
   return (
     <section className="relative py-20 bg-black text-gray-800 min-h-screen flex items-center border-t-2 border-indigo-600" id="pricing">
