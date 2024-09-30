@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <VisitorQueueScript />
+        <VisitorQueueScript />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
