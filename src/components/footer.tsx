@@ -20,6 +20,7 @@ const Footer: React.FC = () => {
             <Link href="/contact-us" className="hover:text-indigo-400 transition-colors duration-200">Contact Us</Link>
             <Link href="/privacy-policy" className="hover:text-indigo-400 transition-colors duration-200">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-indigo-400 transition-colors duration-200">Terms of Service</Link>
+            <Link href="/refund" className="hover:text-indigo-400 transition-colors duration-200">Refund & Cancellations</Link>
           </nav>
         </div>
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
