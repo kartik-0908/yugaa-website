@@ -3,13 +3,18 @@ import { Check } from 'lucide-react';
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-
+import { useRouter } from 'next/navigation';
 const PricingSection: React.FC = () => {
-  const [currency, setCurrency] = useState<'USD' | 'INR'>('USD');
+  const [currency, setCurrency] = useState<'USD' | 'INR'>('INR');
   const exchangeRate = 84; // 1 USD = 75 INR (approximation, you may want to use a real-time API for accuracy)
+  const router = useRouter();
 
   const handleBookMeeting = () => {
     window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
+  };
+
+  const handleBuyNow = () => {
+    router.push('/payment');
   };
 
   const convertPrice = (priceUSD: number) => {
@@ -72,7 +77,8 @@ const PricingSection: React.FC = () => {
               </ul>
             </CardContent>
             <CardFooter className="bg-gray-50 p-6">
-              <Button onClick={handleBookMeeting} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-full py-2 px-4">Contact Sales</Button>
+            <Button onClick={handleBuyNow} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-full py-2 px-4">Buy Now</Button>
+              {/* <Button onClick={handleBookMeeting} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-full py-2 px-4">Contact Sales</Button> */}
             </CardFooter>
           </Card>
 
