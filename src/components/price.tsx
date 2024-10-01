@@ -23,8 +23,8 @@ const PricingSection: React.FC = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-white">Choose Your Plan</h2>
         <div className="flex justify-center mb-8">
           <Select value={currency} onValueChange={(value: 'USD' | 'INR') => setCurrency(value)} >
-            <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder="Select currency" />
+            <SelectTrigger className="w-[180px] text-white">
+              <SelectValue className='text-white' placeholder="Select currency" />
             </SelectTrigger>
             <SelectContent className='bg-white'>
               <SelectItem value="USD">USD</SelectItem>
