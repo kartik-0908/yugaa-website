@@ -21,7 +21,7 @@ const Navigation: React.FC<NavProps> = ({ scrolled }) => {
 
   const navItems = [
     { href: '#features', label: 'Features' },
-    { href: '#pricing', label: 'Pricing' },
+    { href: '#pricing', label: 'Pricing & Services' },
   ];
 
   const handleBookMeeting = () => {
