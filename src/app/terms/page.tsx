@@ -19,7 +19,7 @@ const TermsOfService: React.FC = () => {
 
           <div className="text-white space-y-4">
             <p>
-              These Terms and Conditions, along with privacy policy or other terms ("Terms") constitute a binding agreement by and between QYTHERION TECHNOLOGIES PRIVATE LIMITED, ( "Website Owner" or "we" or "us" or "our") and you ("you" or "your") and relate to your use of our website, goods (as applicable) or services (as applicable) (collectively, "Services").
+              These Terms and Conditions, along with privacy policy or other terms (&ldquo;Terms&rdquo;) constitute a binding agreement by and between QYTHERION TECHNOLOGIES PRIVATE LIMITED, ( &ldquo;Website Owner&rdquo; or &ldquo;we&rdquo; or &ldquo;us&rdquo; or &ldquo;our&rdquo;) and you (&ldquo;you&rdquo; or &ldquo;your&rdquo;) and relate to your use of our website, goods (as applicable) or services (as applicable) (collectively, &ldquo;Services&rdquo;).
             </p>
             <p>
               By using our website and availing the Services, you agree that you have read and accepted these Terms (including the Privacy Policy). We reserve the right to modify these Terms at any time and without assigning any reason. It is your responsibility to periodically review these Terms to stay informed of updates.
