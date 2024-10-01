@@ -14,94 +14,35 @@ const TermsOfService: React.FC = () => {
         <h1 className="text-4xl font-bold mb-8 text-white">Terms of Service for Yugaa AI</h1>
         
         <div className="bg-black shadow-md rounded-lg p-6 mb-8">
-          <p className="text-gray-600 mb-4">Last updated: {new Date().toLocaleDateString()}</p>
+          <h2 className="text-2xl font-semibold mb-4 text-white">Terms & Conditions</h2>
+          <p className="text-gray-600 mb-4">Last updated on 01-10-2024 12:31:04</p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">1. Acceptance of Terms</h2>
-            <p className="text-white mb-4">
-              By accessing or using the Yugaa AI service (&quot;Service&quot;) provided by QYTHERION TECHNOLOGIES PRIVATE LIMITED (&quot;Company&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you disagree with any part of the terms, you may not access the Service.
+          <div className="text-white space-y-4">
+            <p>
+              These Terms and Conditions, along with privacy policy or other terms ("Terms") constitute a binding agreement by and between QYTHERION TECHNOLOGIES PRIVATE LIMITED, ( "Website Owner" or "we" or "us" or "our") and you ("you" or "your") and relate to your use of our website, goods (as applicable) or services (as applicable) (collectively, "Services").
             </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">2. Description of Service</h2>
-            <p className="text-white mb-4">
-              Yugaa AI is an AI-powered customer support service that provides automated responses to customer inquiries. The Service may include features such as chatbots, automated ticketing systems, and analytics tools.
+            <p>
+              By using our website and availing the Services, you agree that you have read and accepted these Terms (including the Privacy Policy). We reserve the right to modify these Terms at any time and without assigning any reason. It is your responsibility to periodically review these Terms to stay informed of updates.
             </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">3. User Accounts</h2>
-            <p className="text-white mb-4">
-              To use certain features of the Service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">4. User Obligations</h2>
-            <p className="text-white mb-4">You agree to use the Service only for lawful purposes and in accordance with these Terms. You agree not to:</p>
-            <ul className="list-disc list-inside text-white mb-4">
-              <li>Use the Service in any way that violates any applicable laws or regulations</li>
-              <li>Impersonate any person or entity, or falsely state or misrepresent your affiliation with a person or entity</li>
-              <li>Interfere with or disrupt the Service or servers or networks connected to the Service</li>
-              <li>Attempt to gain unauthorized access to any portion of the Service or any other systems or networks connected to the Service</li>
+            <p>The use of this website or availing of our Services is subject to the following terms of use:</p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>To access and use the Services, you agree to provide true, accurate and complete information to us during and after registration, and you shall be responsible for all acts done through the use of your registered account.</li>
+              <li>Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials offered on this website or through the Services, for any specific purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.</li>
+              <li>Your use of our Services and the website is solely at your own risk and discretion.</li>
+              <li>You are required to independently assess and ensure that the Services meet your requirements.</li>
+              <li>The contents of the Website and the Services are proprietary to Us and you will not have any authority to claim any intellectual property rights, title, or interest in its contents.</li>
+              <li>You acknowledge that unauthorized use of the Website or the Services may lead to action against you as per these Terms or applicable laws.</li>
+              <li>You agree to pay us the charges associated with availing the Services.</li>
+              <li>You agree not to use the website and/ or Services for any purpose that is unlawful, illegal or forbidden by these Terms, or Indian or local laws that might apply to you.</li>
+              <li>You agree and acknowledge that website and the Services may contain links to other third party websites. On accessing these links, you will be governed by the terms of use, privacy policy and such other policies of such third party websites.</li>
+              <li>You understand that upon initiating a transaction for availing the Services you are entering into a legally binding and enforceable contract with the us for the Services.</li>
+              <li>You shall be entitled to claim a refund of the payment made by you in case we are not able to provide the Service. The timelines for such return and refund will be according to the specific Service you have availed or within the time period provided in our policies (as applicable). In case you do not raise a refund claim within the stipulated time, than this would make you ineligible for a refund.</li>
+              <li>Notwithstanding anything contained in these Terms, the parties shall not be liable for any failure to perform an obligation under these Terms if performance is prevented or delayed by a force majeure event.</li>
+              <li>These Terms and any dispute or claim relating to it, or its enforceability, shall be governed by and construed in accordance with the laws of India.</li>
+              <li>All disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in Roorkee, Uttarakhand</li>
+              <li>All concerns or communications relating to these Terms must be communicated to us using the contact information provided on this website.</li>
             </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">5. Intellectual Property</h2>
-            <p className="text-white mb-4">
-              The Service and its original content, features, and functionality are and will remain the exclusive property of QYTHERION TECHNOLOGIES PRIVATE LIMITED and its licensors. The Service is protected by copyright, trademark, and other laws of both India and foreign countries.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">6. Payment and Subscription</h2>
-            <p className="text-white mb-4">
-              Certain features of the Service may require payment of fees. You agree to pay all fees associated with your use of the Service. We reserve the right to change our fees upon reasonable notice.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">7. Limitation of Liability</h2>
-            <p className="text-white mb-4">
-              In no event shall QYTHERION TECHNOLOGIES PRIVATE LIMITED, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">8. Disclaimer</h2>
-            <p className="text-white mb-4">
-              Your use of the Service is at your sole risk. The Service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. The Service is provided without warranties of any kind, whether express or implied.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">9. Governing Law</h2>
-            <p className="text-white mb-4">
-              These Terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">10. Changes to Terms</h2>
-            <p className="text-white mb-4">
-              We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any significant changes by posting the new Terms on this page.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-white">11. Contact Us</h2>
-            <p className="text-white mb-4">
-              If you have any questions about these Terms, please contact us at:
-            </p>
-            <address className="text-white not-italic">
-              QYTHERION TECHNOLOGIES PRIVATE LIMITED<br />
-              881, Azad Nagar, Roorke, Uttarakhand, India<br />
-              Email: vishal@yugaa.tech<br />
-              Phone: +917017412845
-            </address>
-          </section>
+          </div>
         </div>
 
         <div className="text-center">
