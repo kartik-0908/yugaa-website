@@ -12,6 +12,8 @@ const PaymentPage: React.FC = () => {
     cardNumber: '',
     expiryDate: '',
     cvv: '',
+    number:'',
+    address:''
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -34,7 +36,7 @@ const PaymentPage: React.FC = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <h2 className="text-center text-3xl font-extrabold text-gray-900">
-            Register with Yugaa AI
+           Checkout
           </h2>
         </CardHeader>
         <CardContent>
@@ -66,6 +68,24 @@ const PaymentPage: React.FC = () => {
                 value={formData.company}
                 onChange={handleInputChange}
                 placeholder="Company Name"
+              />
+            </div>
+            <div>
+              <Input
+                type="number"
+                name="Mobile Number"
+                value={formData.number}
+                onChange={handleInputChange}
+                placeholder="Mobile Number"
+              />
+            </div>
+            <div>
+              <Input
+                type="text"
+                name="Address"
+                value={formData.address}
+                onChange={handleInputChange}
+                placeholder="Address"
               />
             </div>
             <div>
