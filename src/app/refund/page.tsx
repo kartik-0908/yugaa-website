@@ -26,7 +26,7 @@ const CancellationRefundPolicy: React.FC = () => {
               <li>For subscription-based services, you may cancel your subscription at any time. However, refunds will only be issued for unused full months of service. Partial months will not be refunded.</li>
               <li>In the event that you are unsatisfied with the quality of our services, please report your concerns to our Customer Support team within 7 days of service delivery. We will thoroughly investigate your complaint and work towards a satisfactory resolution.</li>
               <li>If a refund is approved due to service quality issues, we will provide a full or partial refund based on the extent of the issue and the amount of work completed.</li>
-              <li>For custom software development projects, refunds will be considered on a case-by-case basis, depending on the project's stage and the amount of work completed.</li>
+              <li>For custom software development projects, refunds will be considered on a case-by-case basis, depending on the project&apos;s stage and the amount of work completed.</li>
               <li>We do not offer refunds for time spent on consultations, requirements gathering, or any work that has been delivered and approved by the client.</li>
               <li>In cases where QYTHERION TECHNOLOGIES PRIVATE LIMITED is unable to deliver the agreed-upon services due to unforeseen circumstances, a full refund will be issued.</li>
               <li>All approved refunds will be processed within 10-15 business days and will be returned to the original payment method used for the purchase.</li>
