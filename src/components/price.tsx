@@ -133,7 +133,7 @@ const PricingSection: React.FC = () => {
               </ul>
             </CardContent>
             <CardFooter className="bg-gray-50 p-6">
-              <Button onClick={handleBookMeeting} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-full py-2 px-4">Contact Sales</Button>
+              {/* <Button onClick={handleBookMeeting} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white rounded-full py-2 px-4">Contact Sales</Button> */}
             </CardFooter>
           </Card>
         </div>

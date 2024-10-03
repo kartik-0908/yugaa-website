@@ -49,9 +49,9 @@ const Navigation: React.FC<NavProps> = ({ scrolled }) => {
           <Link href="https://app.yugaa.tech/sign-in" className={`hover:bg-neutral-800 p-2 px-4 rounded-full text-white`}>
             Login
           </Link>
-          <Button onClick={handleBookMeeting} className={`rounded-full ${scrolled ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-neutral-900 text-white'}`}>
+          {/* <Button onClick={handleBookMeeting} className={`rounded-full ${scrolled ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-neutral-900 text-white'}`}>
             Book Demo
-          </Button>
+          </Button> */}
         </div>
 
         {/* Mobile Hamburger Icon */}
