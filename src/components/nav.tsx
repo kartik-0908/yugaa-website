@@ -14,7 +14,9 @@ interface NavProps {
   scrolled: boolean;
 }
 
-const Navigation: React.FC<NavProps> = ({ scrolled }) => {
+const Navigation: React.FC<NavProps> = (
+  // { scrolled }
+) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
@@ -24,10 +26,10 @@ const Navigation: React.FC<NavProps> = ({ scrolled }) => {
     { href: '#pricing', label: 'Pricing & Services' },
   ];
 
-  const handleBookMeeting = () => {
-    // Replace this URL with your actual Google Calendar booking link
-    window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
-  };
+  // const handleBookMeeting = () => {
+  //   // Replace this URL with your actual Google Calendar booking link
+  //   window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
+  // };
 
   return (
     <div className="px-4">

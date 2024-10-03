@@ -9,9 +9,9 @@ const PricingSection: React.FC = () => {
   const exchangeRate = 84; // 1 USD = 75 INR (approximation, you may want to use a real-time API for accuracy)
   const router = useRouter();
 
-  const handleBookMeeting = () => {
-    window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
-  };
+  // const handleBookMeeting = () => {
+  //   window.open('https://calendar.app.google/zfYjABPHgr233E936', '_blank');
+  // };
 
   const handleBuyNow = () => {
     router.push('/payment');
